@@ -81,16 +81,6 @@ class TableViewController: UITableViewController {
     }
     
     /*
-    func imageWithImage(image:UIImage,scaledToSize newSize:CGSize)->UIImage{
-
-      UIGraphicsBeginImageContext( newSize )
-        image.draw(in: CGRect(x: 0,y: 0,width: newSize.width,height: newSize.height))
-      let newImage = UIGraphicsGetImageFromCurrentImageContext()
-      UIGraphicsEndImageContext()
-        return newImage!.withRenderingMode(.alwaysTemplate)
-    }
-    */
-    /*
     // Override to support conditional editing of the table view.
     override func tableView(_ tableView: UITableView, canEditRowAt indexPath: IndexPath) -> Bool {
         // Return false if you do not want the specified item to be editable.
